@@ -32,7 +32,7 @@ class MatchScreen extends StatelessWidget {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Navigator.pop(context); // Voltar para a tela de Swipe
+                Navigator.pop(context); 
               },
               child: const Text("Voltar para o Swipe"),
               style: ElevatedButton.styleFrom(
